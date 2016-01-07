@@ -1,0 +1,8 @@
+{
+  "name": "bogdananton/php-class-helper",
+  "autoload": {
+    "files": [
+      "ClassHelper.php"
+    ]
+  }
+}

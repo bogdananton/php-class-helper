@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit
+        bootstrap="ClassHelper.php"
+        backupGlobals="false"
+        backupStaticAttributes="false"
+        colors="true"
+>
+    <testsuites>
+        <testsuite name="all">
+            <directory suffix="Test.php">tests/</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./</directory>
+            <exclude>
+                <directory suffix=".php">sample/</directory>
+                <directory suffix=".php">vendor/</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
